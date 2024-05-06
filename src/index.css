@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadowa:hover {
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.91);
+}
+.item:nth-child(even) {
+  background-color: #63625d;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
